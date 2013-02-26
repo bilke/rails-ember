@@ -1,0 +1,3 @@
+RailsEmber.Router.map(function() {
+
+});
