@@ -6,4 +6,4 @@ cd "$(dirname $0)"/..
 rm -f .bundle/config
 
 /opt/boxen/rbenv/versions/1.9.3/bin/bundle check --path .bundle > /dev/null 2>&1 ||
-  /opt/boxen/rbenv/versions/1.9.3/bin/bundle install --local --binstubs=bin --path=.bundle
+  /opt/boxen/rbenv/versions/1.9.3/bin/bundle install --binstubs=bin --path=.bundle
